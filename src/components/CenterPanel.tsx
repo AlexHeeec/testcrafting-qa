@@ -2,7 +2,7 @@
 import { TestCase } from "@/types";
 import TestCaseCard from "./TestCaseCard";
 import { Progress } from "@/components/ui/progress";
-import { Activity } from "lucide-react";
+import { Activity, FileText } from "lucide-react";
 
 interface CenterPanelProps {
   testCases: TestCase[];
